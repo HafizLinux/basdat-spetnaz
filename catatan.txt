@@ -1,0 +1,30 @@
+= Trigger
+
+1. Pegawai pindah jabatan, contoh Staff menjadi Manager old.jabatan = new.jabatan 1.000.000 = 4.000.000 (Table LogJabatan)
+2. Pegawai ikut Lembur, contoh Staff mengikuti lembur sabtu-minggu 
+3. Pegawai ganti jamKerja (LogJadwalKerja)
+
+
+= Stored Procedure
+1. viewPegawai() = "SELECT * FROM pegawai";
+2. insertPegawai(param); done
+3. 
+4. 
+
+= Database Kepegawaian Pabrik Honda Pasir Astana 
+= Table
+1. Pegawai (status menikah) V
+2. Jabatan V
+3. Golongan (I, II, III) => tunjangan anak, transportasi, makan, kesehatan V
+4. Lembur V
+5. Penggajian V
+6. JadwalKerja V
+7. LogJabatan V
+
+
+
+
+
+= Page
+Admin CRUD
+Dashboard Pegawai
